@@ -12,7 +12,7 @@
         <p>Il est actuellement {{date('H:i:s')}}</p>
 
         <footer>
-            <p>&copy; Copyright {{date('Y')}} &middot; <a href="#">A Propos</a></p>
+            <p>&copy; Copyright {{date('Y')}} &middot; <a href="about-us">A Propos</a></p>
         </footer>
     </body>
 </html>
