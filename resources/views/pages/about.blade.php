@@ -1,6 +1,6 @@
 @extends('app')
 
-@section('title', 'A propos | Hello City')
+@section('title', 'A propos | ' . config('app.name'))
 
 @section('content')
         <p>Codé avec &hearts; par WARREN</p>
