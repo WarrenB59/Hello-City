@@ -3,9 +3,14 @@
 @section('title', 'A propos | ' . config('app.name'))
 
 @section('content')
-        <img src="{{ asset('images/dev_icon.png') }}" alt="Developer Icon">
+        <img src="{{ asset('images/dev_icon.png') }}" alt="Developer Icon" class="my-12 rounded-full shadow-md h-32">
 
-        <p>Codé avec &hearts; par WARREN</p>
+        <h2 class="mb-5 text-gray-700">
+            Codé avec <span class="text-pink-500">&hearts;</span> par WARREN
+        </h2>
 
-        <p><a href="{{ route('home')}}">Revenir vers la page d'accueil</a></p>
+        <p>
+            <a href="{{ route('home')}}" class="text-indigo-500 hover:text-indigo-600 underline">
+            Revenir vers la page d'accueil</a>
+        </p>
 @endsection
