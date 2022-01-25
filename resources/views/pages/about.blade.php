@@ -3,7 +3,7 @@
 @section('title', 'A propos | ' . config('app.name'))
 
 @section('content')
-        <img src="/images/dev_icon.png" alt="Developer Icon">
+        <img src="{{ asset('images/dev_icon.png') }}" alt="Developer Icon">
 
         <p>Codé avec &hearts; par WARREN</p>
 
